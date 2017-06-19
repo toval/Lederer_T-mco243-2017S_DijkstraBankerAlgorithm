@@ -55,8 +55,6 @@ public class Proc {
 			{
 				// request a random number of resources up to the max, or the available number
 				return Math.min(rand.nextInt(maxResources - heldResources + 1), available);
-				
-				
 			}
 		}
 		else // not running, restart the process with some probability
